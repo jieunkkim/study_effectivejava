@@ -1,4 +1,4 @@
-package me.study.effetivejava.item01.factoryExample;
+package me.study.effetivejava.item01.factoryexample;
 
 public abstract class Component {
     protected abstract String getCompName();
