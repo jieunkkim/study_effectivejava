@@ -22,7 +22,7 @@ public abstract class UtilClass {
         UtilClass.getName();
 
         // 아래와 같은 인스턴스 생성이 필요없음
-        UtilClass utilClass = new UtilClass();
+        // UtilClass utilClass = new UtilClass();
 
         // class 앞에 abstract를 붙이면 일차적으로 막을 순 있지만 (개발자들이 주로 사용)
         // 만약 다른 static 클래스를 생성하여 위 클래스를 상속 받으면 새로 만든 클래스를 통해 기존 클래스 인스턴스 생성이 가능해진다.
