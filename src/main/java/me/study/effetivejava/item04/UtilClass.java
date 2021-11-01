@@ -5,6 +5,7 @@ import jdk.jshell.execution.Util;
 public abstract class UtilClass {
 
     // 주석 ) UtilClass 이므로 생성자 사용 불가 (인스턴스 생성 불가)
+    // private 이어서 AssertionError를 굳이 넣을 필요 없지만, Class 내부에서 생성자 호출을 하려는 경우 방지를 위함이다.
     private UtilClass(){
         throw new AssertionError();
     }
